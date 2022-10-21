@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vmin;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url(../../images/signup.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.signupheading{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: 50px;
+
+}
+.signup-inputs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+.signup-inputs label{
+    font-size: 20px;
+    font-weight: bold;
+    color: whitesmoke;
+    
+}
+.signup-inputs > input{
+    padding: 0px 50px;
+    border-radius: 10px;
+}
+.signup-button{
+    display: flex;
+    justify-content: center;
+}
+.signup-button > button{
+    background-color: grey;
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+@media screen and (max-width : 700px){
+    body{
+        min-height: 100vh;
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url(../../images/signup.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .signup-inputs{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px;
+    }
+    .signup-inputs label{
+        font-size: 15px;
+        font-weight: bold;
+        
+    }
+    .signup-inputs > input{
+        padding: 0px 30px;
+        border-radius: 10px;
+    }
+}
+@media screen and (max-width : 300px){
+    body{
+        min-height: 100vh;
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url(../../images/signup.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .signup-inputs{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 15px;
+    }
+    .signup-inputs label{
+        font-size: 15px;
+        font-weight: bold;
+        
+    }
+    .signup-inputs > input{
+        padding: 0px 20px;
+        border-radius: 10px;
+    }
+}
+
